@@ -1,0 +1,22 @@
+Technology Review
+Key Themes or Topics
+Organize the body of your review into themes or categories. Here are suggestions for your project and course:
+
+a. Web Design Principles and User Experience (UX)
+Discuss principles like responsive design, accessibility, and intuitive navigation.
+Cite key works (e.g., Nielsen's heuristics or studies on user behavior).
+Relate these principles to your project: How will they enhance the usability of the News Aggregator?
+b. Technologies for Web Development
+Frontend Development: Explore HTML, CSS, JavaScript, and frameworks like React or Vue.js. Discuss their role in creating interactive and user-friendly designs.
+Backend Development: Compare Django (Python) and Node.js (JavaScript), their use cases, and why Django is suitable for your project.
+APIs and Integration: Highlight the importance of APIs (e.g., News API) in aggregating external data for dynamic content.
+c. Information Architecture
+Discuss strategies for organizing content effectively, particularly for websites dealing with large datasets, such as news articles.
+Refer to research or case studies on how content filtering, categorization, and search functionality improve user experience.
+d. Tools and Testing Methods
+Review tools like Figma for UI/UX design, Django for backend development, and Postman for API testing.
+Discuss testing methodologies (e.g., usability testing, cross-browser testing) relevant to web projects.
+e. Ethics in Web Development
+Discuss the importance of ethical considerations, such as data privacy and user consent, particularly for projects handling external APIs.
+f. Challenges in Aggregating and Filtering Data
+Review literature on handling large-scale data aggregation, API rate limits, and strategies to overcome these challenges (e.g., caching, pagination).
