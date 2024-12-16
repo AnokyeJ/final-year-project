@@ -19,4 +19,13 @@ Discuss testing methodologies (e.g., usability testing, cross-browser testing) r
 e. Ethics in Web Development
 Discuss the importance of ethical considerations, such as data privacy and user consent, particularly for projects handling external APIs.
 f. Challenges in Aggregating and Filtering Data
-Review literature on handling large-scale data aggregation, API rate limits, and strategies to overcome these challenges (e.g., caching, pagination).
+Review literature on handling large-scale data aggregation, API rate limits, and strategies to overcome these challenges (e.g., caching, pagination
+
+**Simple guide draft**:
+The development of digital news aggregator platforms has seen significant advancement over the last decade, driven by the increasing demand for curated and accessible news content. This project aims to build a news aggregator using Django, a high-level Python web framework that encourages rapid development and pragmatic design. According to Holovaty and Kaplan-Moss (2009), Django's "batteries-included" approach makes it an ideal framework for web developers who need to implement robust web applications efficiently.
+
+Central to this project is the integration of news APIs, which serve as the backbone for aggregating content from various sources. Lee and Chyi (2014) highlight the importance of APIs in digital journalism, noting that they facilitate the dynamic retrieval of news data, allowing platforms to offer real-time news updates. This capability will be pivotal in ensuring that the aggregator provides timely and relevant news to users.
+
+Moreover, the literature underscores the growing role of artificial intelligence (AI) in improving web development workflows. The introduction of AI-powered tools like OpenAI's Codex offers significant implications for software development. GitHub's Copilot, powered by Codex, provides coding suggestions that enhance developer productivity and code quality (Chen, 2021). Integrating such tools into the development process of this project could streamline the coding phase, reduce errors, and accelerate feature deployment.
+
+The review also addresses user interaction with digital news platforms. According to Newman et al. (2020), user engagement hinges on personalized content delivery and intuitive design. Therefore, the project will incorporate user feedback mechanisms and adaptive content algorithms to enhance user experience and engagement.
