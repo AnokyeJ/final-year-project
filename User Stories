@@ -1,0 +1,26 @@
+# USER STORIES
+
+## Visitor
+
+- **As a visitor**, I want to **browse the latest climate-related headlines** so that I can stay updated on recent events.
+- **As a visitor**, I want to **search for specific news topics** so that I can find articles related to my interest.
+- **As a visitor**, I want to **filter news by source and date range** so that I can narrow down the information I see.
+- **As a visitor**, I want to **read full articles in a modal or external link** so that I don’t lose my browsing context.
+- **As a visitor**, I want to **toggle between light and dark mode** so that I can view the site comfortably.
+
+---
+
+## Registered User
+
+- **As a registered user**, I want to **sign up and log in securely** so that I can personalize my experience.
+- **As a registered user**, I want to **bookmark or save favorite articles** so that I can read them later.
+- **As a registered user**, I want to **view all my saved articles in one place** so that I can easily revisit them.
+- **As a registered user**, I want my **saved preferences (like theme mode)** to persist across visits so that I don’t have to set them again.
+
+---
+
+## Possible User Stories (Future Goals)
+
+- **As a user**, I want to **receive email notifications** about trending climate news so that I stay informed in real-time.
+- **As a user**, I want to **set my preferred topics** (e.g., technology or environment) so that my homepage is tailored.
+- **As a user**, I want to **share articles directly to social media** so that I can inform my network.
