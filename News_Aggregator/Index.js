@@ -53,12 +53,12 @@ const themeIcon = document.getElementById('themeIcon');
 const API_KEY = "ebadabbd0a3c46ecbc05c6e705f02688";
 const BASE_URL = "https://newsapi.org/v2";
 const DEFAULT_PARAMS = `apiKey=${API_KEY}`;
-const HEADLINES_NEWS = `${BASE_URL}/top-headlines?country=us&${DEFAULT_PARAMS}`;
-const GENERAL_NEWS = `${BASE_URL}/top-headlines?country=us&category=general&${DEFAULT_PARAMS}`;
-const BUSINESS_NEWS = `${BASE_URL}/top-headlines?country=us&category=business&${DEFAULT_PARAMS}`;
-const SPORTS_NEWS = `${BASE_URL}/top-headlines?country=us&category=sports&${DEFAULT_PARAMS}`;
-const TECHNOLOGY_NEWS = `${BASE_URL}/top-headlines?country=us&category=technology&${DEFAULT_PARAMS}`;
-const CLIMATE_NEWS = `${BASE_URL}/everything?q=climate+change&sortBy=publishedAt&${DEFAULT_PARAMS}`;
+const HEADLINES_NEWS =`${BASE_URL}/everything?q=climate+change&domains=theguardian.com,bbc.co.uk,nytimes.com&language=en&sortBy=publishedAt&${DEFAULT_PARAMS}`;
+const GENERAL_NEWS = `${BASE_URL}/everything?q=general&sortBy=publishedAt&${DEFAULT_PARAMS}`;
+const BUSINESS_NEWS = `${BASE_URL}/everything?q=business&sortBy=publishedAt&${DEFAULT_PARAMS}`;
+const SPORTS_NEWS = `${BASE_URL}/everything?q=sports&sortBy=publishedAt&${DEFAULT_PARAMS}`;
+const TECHNOLOGY_NEWS = `${BASE_URL}/everything?q=technology&sortBy=publishedAt&${DEFAULT_PARAMS}`;
+const CLIMATE_NEWS = `${BASE_URL}/everything?q=climate+change+global+warming+environment&language=en&sortBy=publishedAt&${DEFAULT_PARAMS}`;
 const SEARCH_NEWS = `${BASE_URL}/everything?sortBy=publishedAt&${DEFAULT_PARAMS}&q=`;
 
 // State Variables
@@ -471,16 +471,10 @@ function displayNews() {
 // Initialize the Page
 window.addEventListener('DOMContentLoaded', () => {
   applySavedTheme();
+  newsType.innerHTML = "<h4>Climate News</h4>";
+  fetchNews(CLIMATE_NEWS);
   fetchHeroNews();
-  fetchNews(HEADLINES_NEWS);
+  console.log("Website initialized with climate focus");
   
-  // Set default date values
-  const today = new Date();
-  const oneMonthAgo = new Date();
-  oneMonthAgo.setMonth(today.getMonth() - 1);
-  
-  fromDate.valueAsDate = oneMonthAgo;
-  toDate.valueAsDate = today;
-
   
 });
